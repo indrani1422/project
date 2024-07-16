@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Freeman&family=Homemade+Apple&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --margin-right:20%;
+    --margin-left:10%;
+    --container-back:gray;
+}
+.logo{
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+         color: rgb(45, 6, 117);
+         margin-left: 50px;
+
+}
+
+.container{
+    height: 100vh;
+    /* background-color: var(--container-back); */
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-right);
+}
+.header-one{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    font-size: 20px;
+    font-weight: 400;
+}
+.leftmenu{
+    display: flex;
+    gap: 1.5rem;
+}
+.menu {
+    display: flex;
+    gap: 0.5rem;
+
+}
+.menu a:hover{
+    background-color: rgb(247, 246, 246);
+    height: 40px;
+}
+.menu a{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: black;
+
+}
+.logo{
+    font-weight: 900;
+    font-size: 30px;
+    text-decoration: none;
+}
+.rightmenu{
+    display: flex;
+    gap: 1rem;
+
+}
+.rightmenu a{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: black;
+}
+.rightmenu .me:hover{
+    background-color:  rgb(247, 246, 246);
+    height: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+.head{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 45px;
+    margin-top: 60px;
+    height: 70px;
+
+}
+.para
+{
+        text-align: center; 
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        margin-top: 80px;
+        font-size: larger;
+
+}
+.para2{
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 30px;
+        margin-top: 60px;
+
+}
+
+button{
+    height: 55px;
+    width: 250px;
+    border: 1px solid transparent;
+    background-color: rgb(96, 41, 184);
+    color: white;
+    margin: auto;
+
+}
+.cont1{
+    display: flex;
+    margin-top: 60px;
+}
+.con1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+.list{
+    margin-left: -30px; 
+    font-weight: 400;
+    font-size: larger;
+    font-weight: 400;
+
+}
+header{
+    position: fixed;
+    top: -25px;
+    background-color:whitesmoke;
+    height: 90px;
+    width: 100%;
+}
+.first{
+    margin-top: 30px;
+}
+.line{
+    gap: 60px;
+}
+@media only screen and (max-width: 600px) {
+    .leftmenu{
+        display: none;
+
+    }
+
+}
+@media only screen and (max-width: 600px){
+    .button{
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px){
+    .head{
+        height: auto;
+        width: 100%;
+        font-size: xx-large;
+    }
+}
+@media only screen and (max-width: 600px){
+    .chart{
+    height: auto;
+    width: 100%;
+    }
+}
+@media only screen and (max-width: 600px){
+    #con1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 600px){
+    #class{
+        height: auto;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .footer{
+        height: 880px;
+        width: 100%;
+    }
+}
